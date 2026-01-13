@@ -3,3 +3,63 @@
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* Shared Styles */
+
+.display_flex
+{
+    display: flex;
+}
+
+.text_color_dark_2
+{
+    color: #727272;
+}
+
+.text_color_dark_3
+{
+    color: #424242;
+}
+
+.bg_light
+{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.font_45
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.font_18{
+    font-size: 1rem;
+}
+
+/* nav styles */
+
+.navbar
+{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_items
+{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navlink{
+    text-decoration: none;
+   
+}
+
+.navbar
+{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
