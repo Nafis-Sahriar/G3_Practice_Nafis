@@ -45,8 +45,8 @@
     font-size: 1.25rem;
     border: none;
     border-radius: 8px;
+    max-width: 180px;
 }
-
 
 /* nav styles */
 
@@ -100,6 +100,56 @@
     max-width: 100%;
     margin-bottom: 45px;
 }
+
+/* Feature Section */
+.feature_container{
+    display: flex;
+    gap: 73px;
+    margin: 0 auto;
+    max-width: 1318px;
+    margin-top: 85px;
+    align-items: center;
+}
+.feature_container .feature_team_images
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.feature_text h3
+{
+  font-size: 3rem;
+}
+
+.feature_text #fth31
+{
+    color: #727272;
+    font-weight: normal;
+
+}
+.feature_text #fth32
+{
+    color: black;
+    font: bold;
+}
+.feature_text #fth33
+{
+   color: orange;
+   font-weight: bold;
+}
+
+
+
+.feature_text p
+{
+    font-size: 1.2rem;
+    color: #727272;
+    line-height: 16px;
+}
+
+
+
 
 
 /* Responsive Media Querry */
