@@ -139,14 +139,103 @@
    font-weight: bold;
 }
 
-
-
 .feature_text p
 {
     font-size: 1.2rem;
     color: #727272;
     line-height: 16px;
 }
+
+.archi_girl
+{
+    display: flex;
+    gap: 146px;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.archi_girl .archi_girl_image
+{
+    max-width: 708px;
+    max-height: 982px;
+}
+
+.archi_girl .archi_girl_content
+{
+    max-width: 586px;
+}
+.girl_content_header h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    border-left: 5px solid orange;
+    padding-left: 21px;
+
+} 
+
+.girl_content_header p
+{
+    font-size: 1rem;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.feature_card
+{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    max-width: 586px ;
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.148);
+}
+
+.feature_card h5
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.feature_card p
+{
+    font-size: 1rem;
+    color: #727272;
+    margin-top: 9px;
+}
+
+.archi_girl_image button
+{
+    max-width: 342px;
+    max-height: 200px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    margin-top: -70px;
+    margin-left: -80px;
+    padding: 42px;
+}
+
+.archi_girl_image button .year
+{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0;
+  line-height: 70px;
+  padding: 0px;
+}
+.archi_girl_image button .exp
+{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 0;
+
+}
+
+
 
 
 
